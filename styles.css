@@ -34,7 +34,8 @@ h2 {
     font-size: 30px;
     font-family: karasha;
 }
-h4{
+
+h4 {
     margin-right: 1200px;
     margin-top: -50px;
 }
@@ -255,36 +256,6 @@ social-icons a:hover {
 @media (max-width: 768px) {
     h1, h2, p2, h3 {
         margin-right: 0;
-    }
-
-    nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .anime-item {
-        flex: 1 1 calc(50% - 10px); /* 2 elementos por fila */
-    }
-}
-
-/* Para pantallas muy pequeñas */
-@media (max-width: 480px) {
-    body {
-        font-size: 0.9rem;
-    }
-
-    .anime-item {
-        flex: 1 1 100%; /* 1 elemento por fila */
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-}
-/* Para pantallas más pequeñas */
-@media (max-width: 768px) {
-    h1, h2, p2, h3 {
-        margin-right: 0;
         font-size: 1.5rem; /* Ajustar tamaño del texto */
     }
 
@@ -353,7 +324,6 @@ social-icons a:hover {
         font-size: 0.8rem; /* Reducir tamaño del texto del pie de página */
     }
 }
-
 
 /* Fuentes personalizadas */
 @font-face {
