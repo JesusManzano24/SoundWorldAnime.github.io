@@ -1,0 +1,292 @@
+/* Estructura base del body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background: linear-gradient(to right, #FF69B4 50%, #5E98DB 50%);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: karasha;
+}
+
+/* Títulos */
+h1 {
+    margin-top: -220px;
+    color: white;
+    font-size: 50px;
+    font-family: karasha;
+}
+
+h2 {
+    margin-right: 180px;
+    color: black;
+    font-size: 30px;
+    font-family: karasha;
+}
+h4{
+    margin-right: 1200px;
+    margin-top: -50px;
+}
+
+p2 {
+    color: white;
+    margin-right: 180px;
+}
+
+h3 {
+    color: white;
+    font-family: sans-serif;
+    margin-right: 180px;
+}
+
+/* Logo */
+.logo-container {
+    text-align: center;
+}
+
+.logo {
+    margin-top: -40px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.slogan {
+    font-size: 25px;
+    font-family: initial;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 0 black, -2px 2px 0 #FF69B4, 2px -2px 0 #FF69B4, -2px -2px 0 #FF69B4;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+b1 {
+    color: white;
+    text-shadow: 0px 3px 0 black;
+}
+
+/* Navegación */
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 15px;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #4045A6;
+    color: white;
+    text-decoration: none;
+    border-radius: 18px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #7A83DC;
+}
+
+/* Nueva animación de despliegue */
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Aplicación de la animación a cada ítem del menú */
+nav ul li {
+    animation: slideUp 0.6s ease-in-out forwards;
+}
+
+nav ul li:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+nav ul li:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+nav ul li:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+nav ul li:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+nav ul li:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+/* Ocultar el submenú por defecto */
+nav ul li ul.submenu {
+    display: none;
+    position: absolute;
+    background-color: #4045A6;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 2px;
+    list-style-type: none;
+}
+
+/* Mostrar el submenú cuando se haga hover sobre la opción "Series" */
+nav ul li:hover ul.submenu {
+    display: block;
+}
+
+/* Estilos de los enlaces del submenú */
+nav ul li ul.submenu li {
+    margin: 0;
+    padding: 5px 0;
+}
+
+nav ul li ul.submenu li a {
+    display: block;
+    padding: 10px 15px;
+    background-color: #4045A6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav ul li ul.submenu li a:hover {
+    background-color: #7A83DC;
+}
+
+/* Ajustes para que el submenú no interfiera con el resto del menú */
+nav ul {
+    position: relative;
+}
+
+/* Contenido */
+.content {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+/* Lista de animes, se adapta con grid */
+.anime-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.anime-item {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.anime-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.anime-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #4045A6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+social-icons a:hover {
+    color: #FF69B4;
+}
+
+/* Responsividad */
+
+/* Para pantallas más pequeñas */
+@media (max-width: 768px) {
+    h1, h2, p2, h3 {
+        margin-right: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .anime-item {
+        flex: 1 1 calc(50% - 10px); /* 2 elementos por fila */
+    }
+}
+
+/* Para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    .anime-item {
+        flex: 1 1 100%; /* 1 elemento por fila */
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+/* Fuentes personalizadas */
+@font-face {
+    font-family: 'karasha';
+    src: url('Animeworld/letra/karasha.woff2') format('woff2'),
+         url('ruta/a/tu/fuente.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
