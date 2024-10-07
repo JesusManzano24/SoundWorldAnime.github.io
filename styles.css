@@ -286,7 +286,7 @@ social-icons a:hover {
 /* Fuentes personalizadas */
 @font-face {
     font-family: 'immortal';
-    src: url('Animeworld/letra/immortal.woff2') format('woff2'),
+    src: url('https://jesusmanzano24.github.io/SoundWorldAnime.github.io/letras/immortal.woff2') format('woff2'),
          url('ruta/a/tu/fuente.woff') format('woff');
     font-weight: normal;
     font-style: normal;
