@@ -17,7 +17,7 @@ header {
     margin-bottom: 20px;
     color: white;
     font-size: 20px;
-    font-family: karasha;
+    font-family: immortal;
 }
 
 /* Títulos */
@@ -29,6 +29,7 @@ h1 {
 }
 
 h2 {
+    margin-top: -10px;
     margin-right: 180px;
     color: black;
     font-size: 30px;
