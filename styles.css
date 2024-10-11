@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 120vh;
+    height: 130vh;
     background: linear-gradient(to right, #FF69B4 50%, #5E98DB 50%);
 }
 
@@ -58,8 +58,8 @@ h3 {
 
 .logo {
     margin-top: -40px;
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
