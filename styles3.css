@@ -1,0 +1,84 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Contenido */
+.content {
+    padding: 20px;
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Decoración de la lista de temporadas */
+.anime-seasons h4 {
+    margin-top: 20px;
+    color: #333;
+    border-bottom: 2px solid #666;
+    padding-bottom: 5px;
+}
+
+.season-list {
+    list-style-type: square;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.season-list li {
+    padding: 5px 0;
+    color: #444;
+}
+
+.season-list li b {
+    color: #222;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

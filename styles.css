@@ -70,7 +70,7 @@ h3 {
     font-family: initial;
     font-style: italic;
     color: white;
-    text-shadow: 2px 2px 0 black, -2px 2px 0 #FF69B4, 2px -2px 0 #FF69B4, -2px -2px 0 #FF69B4;
+    text-shadow: 2px 2px 0 black, -2px 2px 0 #FF69B4, 2px -2px 0 #FF69B4, ;
     margin-bottom: 20px;
     margin-top: -10px;
 }
