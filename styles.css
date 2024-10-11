@@ -17,12 +17,12 @@ header {
     margin-bottom: 20px;
     color: white;
     font-size: 20px;
-    font-family: immortal;
+    font-family: karasha;
 }
 
 /* Títulos */
 h1 {
-    margin-top: -220px;
+    margin-top: -320px;
     color: white;
     font-size: 50px;
     font-family: immortal;
@@ -33,7 +33,7 @@ h2 {
     margin-right: 180px;
     color: black;
     font-size: 30px;
-    font-family: immortal;
+    font-family: karasha;
 }
 h4{
     margin-right: 1200px;
@@ -282,12 +282,44 @@ social-icons a:hover {
         flex-direction: column;
     }
 }
+/*lista*/
+.anime-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin-top: 20px;
+    margin-right: 170px;
+}
 
+.anime-item {
+    text-align: center;
+    max-width: 200px;
+}
+
+.anime-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.anime-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.anime-item p {
+    color: #666;
+    font-size: 14px;
+}
+
+
+/* Fuentes personalizadas */
 @font-face {
     font-family: 'immortal';
-    src: url('SoundWorldAnime/letra/immortal.woff2') format('woff2'),
+    src: url('Animeworld/letra/immortal.woff2') format('woff2'),
          url('ruta/a/tu/fuente.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-

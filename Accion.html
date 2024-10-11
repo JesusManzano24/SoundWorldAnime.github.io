@@ -6,21 +6,23 @@
     <link rel="icon" type="image/x-icon" href="img/LogoP.png">
     <title>Sound World Anime</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    
     <script src="visitas.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <h1>Sound World Anime</h1>
     <header>
-        <div class="logo-container">
-            <img src="img/LogoP.png" alt="Logo" class="logo">
-            <p class="slogan">"Notas Otaku, Acordes Épicos”: Combina la pasión por la música con el mundo otaku.</p>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="img/LogoP.png" alt="Logo" class="logo">
+            </div>
             <nav>
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="#">Series</a>
                         <ul class="submenu">
-                           <li><a href="Accion.html">Acción</a></li>
+                            <li><a href="#">Acción</a></li>
                             <li><a href="#">Aventura</a></li>
                             <li><a href="#">Comedia</a></li>
                             <li><a href="#">Drama</a></li>
@@ -36,9 +38,24 @@
     </header>
 
     <div class="content">
-        <h2>Bienvenido a Sound World Anime</h2>
-        <p2>Tu fuente principal para escuchar los openings y endings de tus animes favoritos y conocer acerca de las canciones.</p2>
-        
+        <h2>Lista de Canciones</h2>
+        <ul class="anime-list">
+            <li class="anime-item">
+                <img src="img/cancion1.jpg" alt="Imagen de la canción">
+                <h3>Nombre de la Canción</h3>
+                <p>Productora: Productora 1</p>
+            </li>
+            <li class="anime-item">
+                <img src="img/cancion2.jpg" alt="Imagen de la canción">
+                <h3>Nombre de la Canción 2</h3>
+                <p>Productora: Productora 2</p>
+            </li>
+            <li class="anime-item">
+                <img src="img/cancion3.jpg" alt="Imagen de la canción">
+                <h3>Nombre de la Canción 3</h3>
+                <p>Productora: Productora 3</p>
+            </li>
+        </ul>
     </div>
 
     <footer>
@@ -48,7 +65,6 @@
             <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://youtube.com/@jesuscrazy6234?si=0-Bw-6RuhI6Q2DXu" target="_blank"><i class="fab fa-youtube"></i></a>
-            <!-- Contador de visitas -->
             <h4>Visitas: <span id="contador-visitas">0</span></h4>
         </div>
     </footer>
