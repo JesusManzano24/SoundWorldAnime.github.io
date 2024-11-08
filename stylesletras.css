@@ -1,0 +1,33 @@
+/*video*/
+iframe{
+    margin-left: 550px;
+    margin-top: -250px;
+}
+
+/* Contenedor de letras altura de las letras */
+.letras-container {
+    display: flex;
+    justify-content: space-around; /* Distribuye ambas canciones horizontalmente */
+    align-items: flex-start; /* Alinea al inicio para igual altura */
+    gap: 20px; /* Espacio entre canciones */
+    margin-top: 250px;
+    margin-right: 200px;
+}
+
+.video-letras {
+    width: 45%;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el video y el texto */
+    gap: 20px; /* Espacio entre el video y la letra */
+}
+
+
+.letras h2, .letras h6, .letras p {
+    margin: 5px 0;
+    color: black;
+    font-family: Arial, sans-serif;
+}
