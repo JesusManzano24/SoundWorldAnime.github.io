@@ -13,14 +13,12 @@ body {
 
 /* Header */
 header {
-    margin-top: 70px;
     text-align: center;
     margin-bottom: 20px;
     color: white;
     font-size: 20px;
     font-family: karasha;
 }
-
 
 /* Títulos */
 h1 {
@@ -37,22 +35,6 @@ h2 {
     font-size: 30px;
     font-family: karasha;
 }
-h6{
-    margin-right: 1000px;
-    color: white;
-    font-family: sans-serif;
-    font-family: karasha;
-    font-size: 30px;
-    margin-top: -10px;
-}
-h7{
-    margin-top: 5000px;
-    margin-left: 600px;
-    color: white;
-    font-family: sans-serif;
-    font-family: karasha;
-    font-size: 30px;
-}
 h4{
     margin-right: 1200px;
     margin-top: -50px;
@@ -61,14 +43,6 @@ h4{
 p2 {
     color: white;
     margin-right: 180px;
-}
-p{
-    text-align: justify-all;
-    margin-right: 1000px;
-}
-p7{
-    text-align: justify-all;
-    margin-left: 500px;
 }
 
 h3 {
@@ -83,7 +57,7 @@ h3 {
 }
 
 .logo {
-    margin-top: 250px;
+    margin-top: -40px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -91,7 +65,6 @@ h3 {
     margin-bottom: 20px;
 }
 
-/*slogan*/
 .slogan {
     font-size: 25px;
     font-family: initial;
@@ -100,7 +73,6 @@ h3 {
     text-shadow: 2px 2px 0 black, -2px 2px 0 #FF69B4, 2px -2px 0 #FF69B4, ;
     margin-bottom: 20px;
     margin-top: -10px;
-    margin-right: -10px;
 }
 
 b1 {
@@ -340,40 +312,6 @@ social-icons a:hover {
 .anime-item p {
     color: #666;
     font-size: 14px;
-}
-
-/*video*/
-iframe{
-    margin-left: 550px;
-    margin-top: -250px;
-}
-
-/* Contenedor de letras altura de las letras */
-.letras-container {
-    display: flex;
-    justify-content: space-around; /* Distribuye ambas canciones horizontalmente */
-    align-items: flex-start; /* Alinea al inicio para igual altura */
-    gap: 20px; /* Espacio entre canciones */
-    margin-top: 250px;
-    margin-right: 200px;
-}
-
-.video-letras {
-    width: 45%;
-    background-color: #f9f9f9;
-    padding: 10px;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centra el video y el texto */
-    gap: 20px; /* Espacio entre el video y la letra */
-}
-
-
-.letras h2, .letras h6, .letras p {
-    margin: 5px 0;
-    color: black;
-    font-family: Arial, sans-serif;
 }
 
 
