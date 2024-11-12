@@ -14,14 +14,16 @@
 }
 
 .logo {
-    width: 100px; /* Tamaño del logo */
+    margin-top: -50px;
+    width: 120px; /* Tamaño del logo */
     height: auto;
     margin-right: 20px; /* Espacio entre el logo y el nombre del sitio */
 }
 
 /* Navegación */
 nav {
-    margin-top: 20px;
+    margin-top: -90px;
+    margin-right: 120px;ar
 }
 
 nav ul {
@@ -55,7 +57,7 @@ nav ul li a:hover {
     color: black;
 }
 h1 {
-    margin-top: -40px;
+    margin-top: 80px;
     color: white;
     font-size: 50px;
     font-family: immortal;
