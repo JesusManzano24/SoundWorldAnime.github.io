@@ -22,12 +22,17 @@ iframe{
     display: flex;
     flex-direction: column;
     align-items: center; /* Centra el video y el texto */
-    gap: 20px; /* Espacio entre el video y la letra */
+    gap: 40px; /* Espacio entre el video y la letra */
 }
+
 
 
 .letras h2, .letras h6, .letras p {
     margin: 5px 0;
     color: black;
     font-family: Arial, sans-serif;
+}
+
+body{
+    height: 190vh;
 }
