@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="https://lh3.googleusercontent.com/pw/AP1GczOKxySHWWNXXbllJ-uk4nd4sOPRjnC00IpoITujtzDDxrBoVwdTi1BXMh01mXZ7KdYlls56mldg_Hzzl7IJFgWHcxNhXsO86k6DWE6vyGrnetl8UXUOjCy67QOa4lfiaurTPdX89W-S1SpNvEfwfOenhg=w624-h624-s-no-gm?authuser=0">
-    <title>Sound World Anime</title>
+    <title>Sound World Anime - Contacto</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" type="text/css" href="Contacto.css">
     <script src="visitas.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-     <h1>Sound World Anime</h1>
     <header>
+         <h1>Sound World Anime</h1>
         <div class="header-container">
             <div class="logo-container">
                 <img src="https://lh3.googleusercontent.com/pw/AP1GczOKxySHWWNXXbllJ-uk4nd4sOPRjnC00IpoITujtzDDxrBoVwdTi1BXMh01mXZ7KdYlls56mldg_Hzzl7IJFgWHcxNhXsO86k6DWE6vyGrnetl8UXUOjCy67QOa4lfiaurTPdX89W-S1SpNvEfwfOenhg=w624-h624-s-no-gm?authuser=0" alt="Logo" class="logo">
@@ -22,14 +23,14 @@
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="#">Series</a>
                         <ul class="submenu">
-                           <li><a href="Accion.html">Acción</a></li>
+                            <li><a href="Accion.html">Acción</a></li>
                             <li><a href="Aventura.html">Aventura</a></li>
                             <li><a href="Comedia.html">Comedia</a></li>
                             <li><a href="Drama.html">Drama</a></li>
                             <li><a href="Fantasía.html">Fantasía</a></li>
                         </ul>
                     </li>
-                       <li><a href="registro.html">Registrarse</a></li>
+                    <li><a href="registro.html">Registrarse</a></li>
                     <li><a href="PlayList.html">PlayList</a></li>
                     <li><a href="Contacto.html">Contacto</a></li>
                 </ul>
@@ -37,22 +38,20 @@
         </div>
     </header>
 
-    <div class="content">
-        <h2>Lista de Canciones</h2>
-        <ul class="anime-list">
-            <li class="anime-item">
-                 <a href="Given.html"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/2663d743-74eb-4c6b-997e-533de0aee5e7/dexw2xj-95d23a2c-3449-47ba-b31f-fcb51978fc48.png" alt="Imagen de la canción"></a>
-                <h3><b>Given</b></h3>
-            </li>
-            <li class="anime-item">
-                <img src="https://lh3.googleusercontent.com/pw/AP1GczOwM64WiC1pmEn56XpPdj-a_ju4eEIo7XPW1cyo_77ze43T5iX_vYj8bFVUragCc3dS1DF9CG6qOJkpWWs6_LqRJwFvUlrI0j-WnsKTxQw29jdUSfYou2uqDI_K6vmCDa_GQwr5fXCKl6NVIhyXaf6oRQ=w600-h400-s-no-gm?authuser=0" alt="Imagen de la canción">
-                <h3>Las Quintillizas</h3>
-            </li>
-            <li class="anime-item">
-                <img src="https://images8.alphacoders.com/138/1382333.png" alt="Imagen de la canción">
-                <h3>Dan Da Dan</h3>
-            </li>
-        </ul>
+    <div class="contact-form-container">
+        <h2>Contacto</h2>
+        <form action="mailto:tu_correo@example.com" method="post" enctype="text/plain">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
     </div>
 
     <footer>
@@ -64,6 +63,5 @@
             <a href="https://youtube.com/@jesuscrazy6234?si=0-Bw-6RuhI6Q2DXu" target="_blank"><i class="fab fa-youtube"></i></a>
         </div>
     </footer>
-
 </body>
 </html>
