@@ -3,8 +3,9 @@
     display: flex;
     align-items: center; /* Alinea verticalmente el logo y el menú */
     justify-content: space-between; /* Mantiene el logo y el menú en los extremos */
-    padding: 20px;
+    padding: 0px; /* Eliminé el padding */
     background-color: transparent; /* Fondo transparente */
+    margin-top: -50px; /* Levanta el encabezado */
 }
 
 /* Contenedor del logo */
@@ -14,7 +15,7 @@
 }
 
 .logo {
-    margin-top: -50px;
+    margin-top: 0px; /* Eliminé el margin-top */
     width: 120px; /* Tamaño del logo */
     height: auto;
     margin-right: 20px; /* Espacio entre el logo y el nombre del sitio */
@@ -22,8 +23,8 @@
 
 /* Navegación */
 nav {
-    margin-top: -90px;
-    margin-right: 120px;ar
+    margin-top: 0px; /* Eliminé el margin-top */
+    margin-right: 120px;
 }
 
 nav ul {
@@ -53,12 +54,29 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #7A83DC;
-}h3{
-    color: black;
 }
+
+/* Títulos */
 h1 {
-    margin-top: 80px;
+    margin-top: -60px; /* Reduce el margin-top para levantar el título */
     color: white;
     font-size: 50px;
     font-family: immortal;
+}
+
+h3 {
+    color: black;
+}
+
+/* Ajustes de altura */
+body {
+    height: 150vh; /* Aumenta la altura del body */
+}
+
+.content {
+    min-height: 80vh; /* Aumenta la altura mínima del contenido */
+}
+
+footer {
+    margin-top: 20px; /* Añade un margen superior al footer para separar del contenido */
 }

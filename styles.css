@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 130vh;
+    height: 110vh;
     background: linear-gradient(to right, #FF69B4 50%, #5E98DB 50%);
 }
 
@@ -83,6 +83,7 @@ b1 {
 /* Navegación */
 nav {
     margin-top: 20px;
+    margin-right: -25px;
 }
 
 nav ul {
