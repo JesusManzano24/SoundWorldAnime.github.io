@@ -7,13 +7,13 @@
     <title>Sound World Anime - Contacto</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styles2.css">
-    <link rel="stylesheet" type="text/css" href="Contacto.css">
+    <link rel="stylesheet" href="contacto.css"> <!-- Enlace al nuevo CSS -->
     <script src="visitas.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
-         <h1>Sound World Anime</h1>
+        <h1>Sound World Anime</h1>
         <div class="header-container">
             <div class="logo-container">
                 <img src="https://lh3.googleusercontent.com/pw/AP1GczOKxySHWWNXXbllJ-uk4nd4sOPRjnC00IpoITujtzDDxrBoVwdTi1BXMh01mXZ7KdYlls56mldg_Hzzl7IJFgWHcxNhXsO86k6DWE6vyGrnetl8UXUOjCy67QOa4lfiaurTPdX89W-S1SpNvEfwfOenhg=w624-h624-s-no-gm?authuser=0" alt="Logo" class="logo">
@@ -40,7 +40,7 @@
 
     <div class="contact-form-container">
         <h2>Contacto</h2>
-        <form action="mailto:tu_correo@example.com" method="post" enctype="text/plain">
+        <form id="contact-form" action="mailto:9991404825j@gmail.com" method="post" enctype="text/plain">
             <label for="name">Nombre:</label>
             <input type="text" id="name" name="name" required>
             
@@ -53,6 +53,34 @@
             <button type="submit">Enviar</button>
         </form>
     </div>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var form = this;
+
+            // Intenta enviar al primer correo
+            fetch(form.action, {
+                method: form.method,
+                body: new URLSearchParams(new FormData(form)),
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+            }).then(response => {
+                if (!response.ok) {
+                    // Si falla, intenta enviar al segundo correo
+                    form.action = 'mailto:krnrodea@gmail.com';
+                    form.submit();
+                } else {
+                    alert('Mensaje enviado con éxito');
+                }
+            }).catch(error => {
+                // Si falla, intenta enviar al segundo correo
+                form.action = 'mailto:krnrodea@gmail.com';
+                form.submit();
+            });
+        });
+    </script>
 
     <footer>
         &copy; 2024 Anime World - Todos los derechos reservados.
