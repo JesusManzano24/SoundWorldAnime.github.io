@@ -1,3 +1,12 @@
+/* Estilo para imágenes */
+.anime-item img {
+    width: 210px; /* Ancho fijo */
+    height: 160px; /* Alto fijo */
+    object-fit: cover; /* Mantiene la relación de aspecto y llena el contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
 /* Contenedor del encabezado */
 .header-container {
     display: flex;
