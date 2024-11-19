@@ -80,6 +80,7 @@ h3 {
 /* Ajustes de altura */
 body {
     height: 150vh; /* Aumenta la altura del body */
+    background-size: cover;
 }
 
 .content {

@@ -9,7 +9,8 @@ body {
     align-items: center;
     height: 110vh;
     /*background: linear-gradient(to right, #FF69B4 50%, #5E98DB 50%);*/
-    background-image: url('https://i.pinimg.com/736x/4a/6b/99/4a6b99cdd09e63c894794d85193d017f.jpg');
+    background-image: url('img/fon_nav.jpg');
+    background-size: cover;
 }
 
 /* Header */
@@ -31,7 +32,6 @@ h1 {
 
 h2 {
     margin-top: -10px;
-    margin-right: 180px;
     color: black;
     font-size: 30px;
     font-family: karasha;
@@ -43,7 +43,8 @@ h4{
 
 p2 {
     color: white;
-    margin-right: 180px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 h3 {
@@ -198,6 +199,11 @@ nav ul {
     text-align: center;
     margin-top: 20px;
     margin-left: 200px;
+}
+
+.cont{
+    text-align: center;
+    margin-top: 40px;
 }
 
 /* Lista de animes, se adapta con grid */
