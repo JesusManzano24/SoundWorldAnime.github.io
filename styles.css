@@ -8,7 +8,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 110vh;
-    background: linear-gradient(to right, #FF69B4 50%, #5E98DB 50%);
+    /*background: linear-gradient(to right, #FF69B4 50%, #5E98DB 50%);*/
+    background-image: url('https://i.pinimg.com/736x/4a/6b/99/4a6b99cdd09e63c894794d85193d017f.jpg');
 }
 
 /* Header */
