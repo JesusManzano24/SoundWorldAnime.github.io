@@ -53,20 +53,18 @@
 </form>
 
 
-        </div>
-
         <!-- Formulario de Inicio de Sesión -->
-        <div id="login" class="auth-form">
-            <h2>Inicio de Sesión</h2>
-            <form id="login-form">
-                <label for="login-username">Usuario:</label>
-                <input type="text" id="login-username" name="username" required>
-                <label for="login-password">Contraseña:</label>
-                <input type="password" id="login-password" name="password" required>
-                <button type="submit">Iniciar Sesión</button>
-            </form>
-        </div>
-    </div>
+<div id="login" class="auth-form">
+    <h2>Inicio de Sesión</h2>
+    <form action="login.php" method="POST"> <!-- Cambiado a action="login.php" -->
+        <label for="login-username">Usuario:</label>
+        <input type="text" id="login-username" name="username" required>
+        <label for="login-password">Contraseña:</label>
+        <input type="password" id="login-password" name="password" required>
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+</div>
+
 
     <footer>
         &copy; 2024 Anime World - Todos los derechos reservados.
